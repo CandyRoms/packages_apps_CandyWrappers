@@ -6,17 +6,20 @@
      The text of the license can be found in the LICENSE file
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
-
+<!--Wallpaper app made for LOX ROM. APP creator: community; provider : JavAster -->
 <resources>
     <string-array name="wallpapers" translatable="false">
-    <item>wallpaper_0</item>
-    <item>wallpaper_1</item>
-    <item>wallpaper_2</item>
-    <item>wallpaper_3</item>
-    <item>wallpaper_4</item>
-    <item>wallpaper_5</item>
-    <item>wallpaper_6</item>
-    <item>wallpaper_7</item>
+    <item>wallz_0</item>
+    <item>wallz_1</item>
+    <item>wallz_2</item>
+    <item>wallz_3</item>
+    <item>wallz_4</item>
+    <item>wallz_5</item>
+    <item>wallz_6</item>
+    <item>wallz_7</item>
+    <item>wallz_8</item>
+    <item>wallz_9</item>
+    <item>wallz_10</item>
     </string-array>
 
     <string-array name="info" translatable="false">
@@ -25,8 +28,11 @@
     <item>Good one by JavAster</item>
     <item>Purple Machette by manikchathli</item>
     <item>Blue Machette by manikchathli</item>
-    <item>Material by hmnt96</item>
-    <item>Metal by hmnt96</item>
+    <item>Material by HMNT96</item>
+    <item>Metal by HMNT96</item>
     <item>Simple material by AdroitAdorKhan</item>
+    <item>MaterialX by AdroitAdorKhan</item>
+    <item>Shooting Stars by Panzerox</item>
+    <item>Text one by JavAster</item>
     </string-array>
 </resources>

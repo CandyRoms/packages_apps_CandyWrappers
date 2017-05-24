@@ -38,42 +38,18 @@ import java.util.ArrayList;
 @SuppressLint("ParserError")
 public class Wallpaper extends FragmentActivity {
 
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide fragments for each of the
-     * sections. We use a {@link android.support.v4.app.FragmentPagerAdapter} derivative, which will
-     * keep every loaded fragment in memory. If this becomes too memory intensive, it may be best
-     * to switch to a {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
     SectionsPagerAdapter mSectionsPagerAdapter;
-
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
+    
     ViewPager mViewPager;
     
-    /**
-     * Menu item used for "Apply" button on actionbar
-     */
     private static final int MENU_APPLY = Menu.FIRST;
-    
-    /**
-     * The {@link Integer} that stores current fragment selected
-     */
+
     private int mCurrentFragment;
-    
-    /**
-     * The {@link ArrayList} that will host the wallpapers resource ID's
-     */
+
     static ArrayList <Integer> sWallpapers = new ArrayList<Integer>();
-    
-    /**
-     * The {@link String[]} that will store wallpaper name
-     */
+
     String[] mWallpaperInfo;
-    
-    /**
-     * The {@link Context} to be used by the app
-     */
+
     static Context mContext;
 
     
@@ -81,11 +57,8 @@ public class Wallpaper extends FragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Create the adapter that will return a fragment for each of the three primary sections
-        // of the app.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
         mViewPager.setOnPageChangeListener(new SimpleOnPageChangeListener(){
@@ -104,10 +77,6 @@ public class Wallpaper extends FragmentActivity {
         mWallpaperInfo = resources.getStringArray(R.array.info);
     }
 
-    /**
-     * A {@link FragmentPagerAdapter} that returns a fragment corresponding to one of the primary
-     * sections of the app.
-     */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {
@@ -231,3 +200,4 @@ public class Wallpaper extends FragmentActivity {
          return super.onCreateOptionsMenu(menu);
     }
 }
+//Wallpaper app made for LOX ROM. APP creator: community; provider : JavAster
