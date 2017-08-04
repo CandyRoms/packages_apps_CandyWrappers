@@ -8,5 +8,5 @@
 -->
 
 <resources>
-    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar" />
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight.DarkActionBar" />
 </resources>
