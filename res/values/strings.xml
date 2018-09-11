@@ -9,9 +9,9 @@
 
 <resources>
 
-    <string name="app_name">XtendedWallz</string>
-    <string name="action_apply">Apply</string>
-    <string name="applying">Applying selected wallpaper</string>
+    <string name="app_name">CandyWrappers</string>
+    <string name="action_apply">Apply sweetness...</string>
+    <string name="applying">Applying selected sweetness...</string>
 
 </resources>
 
