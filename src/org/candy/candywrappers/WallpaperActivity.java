@@ -37,11 +37,11 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.PagerTitleStrip;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager.widget.ViewPager.SimpleOnPageChangeListener;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -63,9 +63,9 @@ public class WallpaperActivity extends FragmentActivity {
     private ViewPager mViewPager;
 
     /**
-     * The {@link TabLayout} that will host the page indicators.
+     * The {@link PagerTitleStrip} that will host the page titles.
      */
-    private TabLayout mTabLayout;
+    private PagerTitleStrip mPagerTitleStrip;
 
     /**
      * The {@link WallpaperManager} used to set wallpaper.
@@ -97,6 +97,8 @@ public class WallpaperActivity extends FragmentActivity {
      */
     private static ArrayList<Integer> sIcons = new ArrayList<Integer>();
 
+    String[] mWallpaperInfo;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -119,8 +121,7 @@ public class WallpaperActivity extends FragmentActivity {
                 sCurrentPosition = position;
             }
         });
-        mTabLayout = (TabLayout) findViewById(R.id.page_indicator);
-        mTabLayout.setupWithViewPager(mViewPager, true);
+        mPagerTitleStrip = (PagerTitleStrip) findViewById(R.id.pager_title_strip);
 
         sIcons.clear();
         sIcons.add(R.drawable.ic_home);
@@ -132,6 +133,8 @@ public class WallpaperActivity extends FragmentActivity {
         sWallpapers.clear();
 
         fetchWallpapers(R.array.wallpapers);
+        mWallpaperInfo = getResources().getStringArray(R.array.info);
+        mSectionsPagerAdapter.notifyDataSetChanged();
 
         mSnackbar = Snackbar.make(mViewPager, R.string.longpress_info, 4000 /* 4 seconds */);
         mSnackbar.show();
@@ -164,6 +167,11 @@ public class WallpaperActivity extends FragmentActivity {
         @Override
         public int getCount() {
             return sWallpapers.size();
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mWallpaperInfo[position];
         }
     }
 

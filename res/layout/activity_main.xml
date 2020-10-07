@@ -11,14 +11,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pager"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/page_indicator"
+    <androidx.viewpager.widget.PagerTitleStrip
+        android:id="@+id/pager_title_strip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabBackground="@drawable/page_indicator_selector"
-        app:tabGravity="center" />
+        android:layout_gravity="top"
+        android:background="@*android:color/primary_device_default_dark"
+        android:textColor="@*android:color/primary_device_default_light"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
 
 </androidx.viewpager.widget.ViewPager>
