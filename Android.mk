@@ -16,18 +16,13 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := current
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    android-support-v4 \
-    android-support-v7-appcompat \
-    android-support-design
+    androidx.core_core \
+    androidx.appcompat_appcompat \
+    com.google.android.material_material
 
-LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    frameworks/support/v7/appcompat/res \
-    frameworks/support/design/res
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
-LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages android.support.v4 \
-    --extra-packages android.support.v7.appcompat \
-    --extra-packages android.support.design
+LOCAL_AAPT_FLAGS := --auto-add-overlay
 
 LOCAL_PACKAGE_NAME := CandyWrappers
 
