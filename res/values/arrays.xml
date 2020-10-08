@@ -9,22 +9,40 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
-        <item>crw_1</item>
-        <item>crw_2</item>
-        <item>crw_3</item>
-        <item>crw_4</item>
-        <item>crw_5</item>
-        <item>crw_6</item>
-        <item>crw_7</item>
-        <item>crw_8</item>
-        <item>crw_9</item>
-        <item>crw_10</item>
-        <item>crw_11</item>
-        <item>crw_12</item>
-        <item>crw_13</item>
-        <item>crw_14</item>
-        <item>crw_15</item>
-        <item>crw_16</item>
+        <item>CR_A11_1</item>
+        <item>CR_A11_1_2</item>
+        <item>CR_A11_1_3</item>
+        <item>CR_A11_1_4</item>
+        <item>CR_A11_1_5</item>
+        <item>CR_A11_1_6</item>
+        <item>CR_A11_1_7</item>
+        <item>CR_A11_1_8</item>
+        <item>CR_A11_1_9</item>
+        <item>CR_A11_1_10</item>
+
+        <item>CR_A11_2</item>
+        <item>CR_A11_2_2</item>
+        <item>CR_A11_2_3</item>
+        <item>CR_A11_2_4</item>
+        <item>CR_A11_2_5</item>
+        <item>CR_A11_2_6</item>
+        <item>CR_A11_2_7</item>
+        <item>CR_A11_2_8</item>
+        <item>CR_A11_2_9</item>
+        <item>CR_A11_2_10</item>
+
+        <item>CR_A11_3</item>
+        <item>CR_A11_3_2</item>
+        <item>CR_A11_3_3</item>
+        <item>CR_A11_3_4</item>
+        <item>CR_A11_3_5</item>
+        <item>CR_A11_3_6</item>
+        <item>CR_A11_3_7</item>
+        <item>CR_A11_3_8</item>
+        <item>CR_A11_3_9</item>
+        <item>CR_A11_3_10</item>
+
+        <item>CR_A11_4</item>
         <item>crw_17</item>
         <item>crw_18</item>
         <item>crw_19</item>
@@ -34,6 +52,7 @@
         <item>crw_23</item>
         <item>crw_24</item>
         <item>crw_25</item>
+
         <item>crw_26</item>
         <item>crw_27</item>
         <item>crw_28</item>
@@ -44,6 +63,7 @@
         <item>crw_33</item>
         <item>crw_34</item>
         <item>crw_35</item>
+
         <item>crw_36</item>
         <item>crw_37</item>
         <item>crw_38</item>
@@ -54,6 +74,7 @@
         <item>crw_43</item>
         <item>crw_44</item>
         <item>crw_45</item>
+
         <item>crw_46</item>
         <item>crw_47</item>
         <item>crw_48</item>
@@ -64,30 +85,45 @@
         <item>wallpaper_10</item>
         <item>wallpaper_15</item>
         <item>wallpaper_35</item>
-        <item>wallpaper_36</item>
-        <item>wallpaper_39</item>
+
         <item>wallpaper_43</item>
-        <item>wallpaper_45</item>
-        <item>wallpaper_46</item>
         <item>wallpaper_47</item>
     </string-array>
     <string-array name="info" translatable="false">
-        <item>Red logo with gray stripe by Roger Truttman</item>
-        <item>Green logo with gray stripe by Roger Truttman</item>
-        <item>Blue logo with gray stripe by Roger Truttman</item>
-        <item>Pink logo with gray stripe by Roger Truttman</item>
-        <item>Yellow logo with gray stripe by Roger Truttman</item>
-        <item>Orange logo with gray stripe by Roger Truttman</item>
-        <item>White logo with gray stripe by Roger Truttman</item>
-        <item>Blue logo with smoke by Roger Truttman</item>
-        <item>Red logo with smoke by Roger Truttman</item>
-        <item>Orange logo with smoke by Roger Truttman</item>
-        <item>Yellow logo with smoke by Roger Truttman</item>
-        <item>Green logo with smoke by Roger Truttman</item>
-        <item>Purple logo with smoke by Roger Truttman</item>
-        <item>Pink logo with smoke by Roger Truttman</item>
-        <item>Fuscia logo with smoke by Roger Truttman</item>
-        <item>Mintgreen logo with smoke by Roger Truttman</item>
+        <item>Blue tech dark by Roger Truttman</item>
+        <item>Mint tech dark by Roger Truttman</item>
+        <item>Purple tech dark by Roger Truttman</item>
+        <item>Yellow-green tech dark by Roger Truttman</item>
+        <item>Pink tech dark by Roger Truttman</item>
+        <item>Orange tech dark by Roger Truttman</item>
+        <item>Red tech dark by Roger Truttman</item>
+        <item>Green tech dark by Roger Truttman</item>
+        <item>Yellow tech dark by Roger Truttman</item>
+        <item>White tech dark by Roger Truttman</item>
+
+        <item>Blue tech dark 2 by Roger Truttman</item>
+        <item>Mint tech dark 2 by Roger Truttman</item>
+        <item>Purple tech dark 2 by Roger Truttman</item>
+        <item>Yellow-green tech dark 2 by Roger Truttman</item>
+        <item>Pink tech dark 2 by Roger Truttman</item>
+        <item>Orange tech dark 2 by Roger Truttman</item>
+        <item>Red tech dark 2 by Roger Truttman</item>
+        <item>Green tech dark 2 by Roger Truttman</item>
+        <item>Yellow tech dark 2 by Roger Truttman</item>
+        <item>White tech dark 2 by Roger Truttman</item>
+
+        <item>Blue circuit dark by Roger Truttman</item>
+        <item>Green circuit dark by Roger Truttman</item>
+        <item>Purple circuit dark by Roger Truttman</item>
+        <item>Yellow-green circuit dark by Roger Truttman</item>
+        <item>Pink circuit dark by Roger Truttman</item>
+        <item>Yellow-orange circuit dark by Roger Truttman</item>
+        <item>Red circuit dark by Roger Truttman</item>
+        <item>Orange circuit dark by Roger Truttman</item>
+        <item>Yellow circuit dark by Roger Truttman</item>
+        <item>White circuit dark by Roger Truttman</item>
+
+        <item>Network dark by Roger Truttman</item>
         <item>Peach design by Roger Truttman</item>
         <item>Green design by Roger Truttman</item>
         <item>Purple design by Roger Truttman</item>
@@ -97,19 +133,21 @@
         <item>Gray design by Roger Truttman</item>
         <item>Blue circuit by Roger Truttman</item>
         <item>Green circuit by Roger Truttman</item>
+
+        <item>Purple circuit by Roger Truttman</item>
         <item>Pink circuit by Roger Truttman</item>
-        <item>Fuscia circuit by Roger Truttman</item>
         <item>Yellow circuit by Roger Truttman</item>
         <item>Cyan circuit by Roger Truttman</item>
         <item>Red circuit by Roger Truttman</item>
         <item>Gray circuit by Roger Truttman</item>
-        <item>Blue circuit2 by Roger Truttman</item>
-        <item>Pink circuit2 by Roger Truttman</item>
+        <item>Blue circuit 2 by Roger Truttman</item>
+        <item>Purple circuit 2 by Roger Truttman</item>
         <item>Lime circuit by Roger Truttman</item>
-        <item>Fuscia circuit2 by Roger Truttman</item>
-        <item>Orange circuit2 by Roger Truttman</item>
-        <item>Green circuit2 by Roger Truttman</item>
-        <item>Gray circuit2 by Roger Truttman</item>
+        <item>Pink circuit 2 by Roger Truttman</item>
+
+        <item>Orange circuit 2 by Roger Truttman</item>
+        <item>Green circuit 2 by Roger Truttman</item>
+        <item>Gray circuit 2 by Roger Truttman</item>
         <item>Coffee by Roger Truttman</item>
         <item>Red logo by Roger Truttman</item>
         <item>Green by Roger Truttman</item>
@@ -117,21 +155,19 @@
         <item>Orange by Roger Truttman</item>
         <item>Yellow by Roger Truttman</item>
         <item>Pink by Roger Truttman</item>
+
         <item>Purple by Roger Truttman</item>
         <item>Gray by Roger Truttman</item>
         <item>Pastel by Roger Truttman</item>
         <item>Neon by Roger Truttman</item>
         <item>Faded by Roger Truttman</item>
-        <item>Legacy red logo</item>
+        <item>Legacy red</item>
         <item>Legacy red 2</item>
         <item>Legacy teal</item>
         <item>Candy makers</item>
-        <item>Legacy red3</item>
-        <item>Legacy teal2</item>
-        <item>Legacy teal3</item>
+        <item>Legacy red 3</item>
+
         <item>Legacy Cat and Moon</item>
-        <item>Legacy Red paint</item>
-        <item>Legacy Purple paint</item>
         <item>Legacy Gray pattern</item>
     </string-array>
 
